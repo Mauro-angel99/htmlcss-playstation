@@ -1,0 +1,101 @@
+/* color */
+
+.bg-red {
+    background-color: #CD3D0F;
+}
+
+/* generic */
+
+.button {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header-logo {
+    height: 35px;
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.logo {
+    height: 15px;
+}
+
+/* navbar */
+
+.nav-link span {
+    color: black;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.fa-magnifying-glass {
+    font-size: 25px;
+    color: black;
+}
+
+/* main */
+
+main {
+    padding-top: 100px;
+}
+
+.jumbo {
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: white;
+    padding: 50px 0;
+}
+
+.jumbo img {
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.jumbo h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.jumbo p {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+/* playstation */
+
+#playstation {
+    text-align: center;
+}
+
+#playstation span {
+    color: #358FD8;
+    font-weight: 700;
+}
+
+#playstation h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+#playstation p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #989898;
+}
