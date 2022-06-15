@@ -77,6 +77,7 @@ header {
     left: 0;
     top: 0;
     right: 0;
+    z-index: 1;
 }
 
 .header-logo {
@@ -94,9 +95,12 @@ header {
 /* navbar */
 
 .nav-link span {
-    color: black;
     font-weight: bold;
     margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: black;
 }
 
 .nav-link img {
@@ -134,6 +138,23 @@ main {
     margin-bottom: 30px;
 }
 
+/* figure game */
+
+.figure-active {
+    margin-top: 20px;
+    padding: 2px;
+    border: 2px solid #358FD8;
+}
+
+.figure-game {
+    margin-top: 20px;
+}
+
+.figure-game:hover {
+    margin-top: 0;
+    transition: 0.5s;
+}
+
 /* playstation */
 
 #playstation {
@@ -149,6 +170,15 @@ main {
 /* console */
 
 .console-active {
+    border-bottom: 2px solid #2D64E6;
+}
+
+.thumb {
+    opacity: .75;
+}
+
+.thumb:hover {
+    opacity: inherit;
     border-bottom: 2px solid #2D64E6;
 }
 
