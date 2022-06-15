@@ -8,6 +8,10 @@
     background-color: #2D64E6;
 }
 
+.bg-footer {
+    background-color: #00439C;
+}
+
 .bg-nightblue {
     background-color: #161C3B;
 }
@@ -61,6 +65,11 @@ p {
     margin-bottom: 40px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /* header */
 
 header {
@@ -90,9 +99,8 @@ header {
     margin: 0 10px;
 }
 
-.fa-magnifying-glass {
-    font-size: 25px;
-    color: black;
+.nav-link img {
+    height: 30px;
 }
 
 /* main */
@@ -204,4 +212,27 @@ main {
 #now p {
     font-size: 16px;
     color: white;
+}
+
+/* footer */
+
+footer .logo {
+    height: 100px;
+}
+
+footer .globe {
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer .sie {
+    height: 60px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer p a {
+    text-decoration: underline;
 }
