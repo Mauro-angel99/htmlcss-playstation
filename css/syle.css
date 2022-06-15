@@ -8,6 +8,10 @@
     background-color: #2D64E6;
 }
 
+.bg-nightblue {
+    background-color: #161C3B;
+}
+
 .bg-darkgrey {
     background-color: #1F1F1F;
 }
@@ -18,6 +22,10 @@
 
 .bg-lightgrey {
     background-color: #D9DADC;
+}
+
+.bg-white {
+    background-color: white;
 }
 
 .white {
@@ -184,4 +192,16 @@ main {
 
 #plus p {
     font-size: 16px;
+}
+
+/* now */
+
+#now .logo {
+    width: 60%;
+    height: auto;
+}
+
+#now p {
+    font-size: 16px;
+    color: white;
 }
