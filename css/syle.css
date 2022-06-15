@@ -70,6 +70,11 @@ a {
     color: white;
 }
 
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 /* header */
 
 header {
@@ -101,6 +106,10 @@ header {
 
 .nav-link:hover {
     color: black;
+}
+
+#button-nav:hover {
+    color: white;
 }
 
 .nav-link img {
@@ -232,6 +241,10 @@ main {
     font-size: 16px;
 }
 
+#button-plus:hover {
+    color: #2D64E6;
+}
+
 /* now */
 
 #now .logo {
@@ -242,6 +255,10 @@ main {
 #now p {
     font-size: 16px;
     color: white;
+}
+
+#button-now:hover {
+    color: black;
 }
 
 /* footer */
