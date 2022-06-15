@@ -12,8 +12,24 @@
     background-color: #1F1F1F;
 }
 
+.bg-grey {
+    background-color: #BEBCBB;
+}
+
+.bg-lightgrey {
+    background-color: #D9DADC;
+}
+
 .white {
     color: white;
+}
+
+.black {
+    color: black;
+}
+
+.blue {
+    color: #2D64E6;
 }
 
 /* generic */
@@ -21,7 +37,6 @@
 .button {
     padding: 10px 15px;
     text-decoration: none;
-    color: white;
     border-radius: 30px;
 }
 
@@ -158,4 +173,15 @@ main {
     color: white;
     font-size: 16px;
     font-weight: 500;
+}
+
+/* plus */
+
+#plus .logo {
+    width: 60%;
+    height: auto;
+}
+
+#plus p {
+    font-size: 16px;
 }
